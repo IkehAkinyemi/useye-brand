@@ -75,8 +75,11 @@ header {
 }
 
 .welcome {
-  width: 100%;
-  height: 15rem;
-  background: url(/welcome-bgm.jpg) no-repeat;
-  background-size: cover;
+  background: url(welcome-bgm.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
 }
